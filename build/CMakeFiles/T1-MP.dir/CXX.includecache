@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/pilha.hpp
+vector
+-
+memory
+-
+
+/home/crash/vieiramanoel/MP-2020-2/src/testa_pilha.cpp
+pilha.hpp
+/home/crash/vieiramanoel/MP-2020-2/src/pilha.hpp
+iostream
+-
+

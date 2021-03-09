@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/crash/vieiramanoel/MP-2020-2/build",
+  "command": "/usr/bin/g++  -I/home/crash/vieiramanoel/MP-2020-2/include -g -std=gnu++14 -o CMakeFiles/T1-MP.dir/src/pilha.cpp.o -c /home/crash/vieiramanoel/MP-2020-2/src/pilha.cpp",
+  "file": "/home/crash/vieiramanoel/MP-2020-2/src/pilha.cpp"
+},
+{
+  "directory": "/home/crash/vieiramanoel/MP-2020-2/build",
+  "command": "/usr/bin/g++  -I/home/crash/vieiramanoel/MP-2020-2/include -g -std=gnu++14 -o CMakeFiles/T1-MP.dir/src/testa_pilha.cpp.o -c /home/crash/vieiramanoel/MP-2020-2/src/testa_pilha.cpp",
+  "file": "/home/crash/vieiramanoel/MP-2020-2/src/testa_pilha.cpp"
+}
+]

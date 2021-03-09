@@ -1,0 +1,3 @@
+/home/crash/vieiramanoel/MP-2020-2/build/CMakeFiles/rebuild_cache.dir
+/home/crash/vieiramanoel/MP-2020-2/build/CMakeFiles/edit_cache.dir
+/home/crash/vieiramanoel/MP-2020-2/build/CMakeFiles/T1-MP.dir
