@@ -34,12 +34,22 @@ int main(int argc, char const *argv[])
 
     std::cout << "TOP: " << top(p) << std::endl;
     std::cout << "POP: " << pop(p) << std::endl;
-    
+
     std::cout << "TOP: " << top(p) << std::endl;
     std::cout << "POP: " << pop(p) << std::endl;
-    
-    std::cout << "TOP: " << top(p) << std::endl;
-    std::cout << "POP: " << pop(p) << std::endl;
-    
+
+    // tentativa de dar pop em pilha vazia
+    try
+    {
+        std::cout << "TOP: " << top(p) << std::endl;
+        std::cout << "POP: " << pop(p) << std::endl;
+    }
+    catch (std::length_error &e)
+    {
+        std::cerr << "ERRO NA PILHA" << std::endl;
+        std::cerr << e.what() << std::endl;
+    }
+
+    delete p;
     return 0;
 }

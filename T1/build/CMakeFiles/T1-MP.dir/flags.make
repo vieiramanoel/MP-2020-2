@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/crash/vieiramanoel/MP-2020-2/include
 
-CXX_FLAGS = -g -std=gnu++14
+CXX_FLAGS = -Wall -g -std=gnu++14
 

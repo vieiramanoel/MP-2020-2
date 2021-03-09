@@ -1,5 +1,4 @@
 #include "pilha.hpp"
-#include <stdexcept>
 
 const auto except = std::length_error("Pilha vazia");
 

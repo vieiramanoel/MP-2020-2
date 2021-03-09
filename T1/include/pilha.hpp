@@ -1,9 +1,9 @@
 #include <vector>
+#include <stdexcept>
 #include <memory>
 
 #define VECTOR_TYPE 0
 #define LINKED_TYPE 1
-#include <stdexcept>
 
 class Pilha
 {
