@@ -32,5 +32,13 @@ int romano(std::string input)
     {
         return convertOne(input[0]);
     }
-    return -1;
+
+    int total = 0;
+    for (auto i = input.begin(); i != input.end(); ++i)
+    {
+        auto current = convertOne(*i);
+        total += current;
+    }
+
+    return total;
 }

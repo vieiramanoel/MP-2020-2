@@ -30,3 +30,9 @@ TEST_CASE("TEST should ignore captalization")
     REQUIRE(romano("d") == 500);
     REQUIRE(romano("m") == 1000);
 }
+
+TEST_CASE("TEST less than five")
+{
+    REQUIRE(romano("ii") == 2);
+    REQUIRE(romano("iii") == 3);
+}
