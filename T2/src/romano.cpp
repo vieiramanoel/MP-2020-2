@@ -27,6 +27,7 @@ int convertOne(char digit)
 
 int romano(std::string input)
 {
+    std::transform(input.begin(), input.end(), input.begin(), ::toupper);
     if (input.size() == 1)
     {
         return convertOne(input[0]);

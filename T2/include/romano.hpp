@@ -2,6 +2,7 @@
 #define ROMANO_HPP_
 
 #include <string>
+#include <algorithm>
 
 int romano(std::string input);
 
