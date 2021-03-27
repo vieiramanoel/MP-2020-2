@@ -31,4 +31,5 @@ int romano(std::string input)
     {
         return convertOne(input[0]);
     }
+    return -1;
 }
