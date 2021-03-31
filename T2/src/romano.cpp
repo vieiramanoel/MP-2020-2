@@ -66,7 +66,7 @@ int romano(std::string input)
         return -1;
 
     int total = 0;
-    for (auto i = input.begin(); i != input.end(); ++i)
+    for (auto i = input.begin(); i != input.end(); i++)
     {
         auto current = convertOne(*i);
         // prevent accessing outside the vector

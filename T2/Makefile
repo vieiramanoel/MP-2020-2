@@ -34,7 +34,7 @@ $(EXEC): $(OBJ)
 	$(CC) $(CFLAGS) -o $@ $^ $(LIBS)
 	
 	@echo "Running Valgrind profiler"
-	valgrind --leak-check=full ./T1-MP
+	valgrind --leak-check=full ./T2-MP
 	
 $(OBJ_DIR)/%.o: $(C_DIR)/%.cpp $(HEADERS_SRC)
 	$(CC) $(CFLAGS) -I./$(INC_DIR) -c $< -o $@
