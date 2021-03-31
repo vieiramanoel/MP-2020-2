@@ -3,6 +3,8 @@
 
 #include <string>
 #include <algorithm>
+#include <map>
+#include <vector>
 
 int romano(std::string input);
 
